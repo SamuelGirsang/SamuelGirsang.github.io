@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: rgb(32, 32, 32);
+    padding: 13px;
+}
+
+.choose {
+    font-size: 20px;
+    color:blue;
+    font-family: 'Recursive', sans-serif;
+    text-align: center;
+}
+
+.choose:hover {
+    color: rgb(0, 115, 247);
+}
+
+h2:hover {
+    
+    color: blue;
+}
+
+
+.top-sub {
+    font-size: 25px;
+    font-family: 'Recursive', sans-serif;
+    color: rgb(0, 115, 247);
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+/* .button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    background: rgb(45, 117, 96);
+    border-radius: 3px;
+    cursor: pointer;
+  } */
+  
+.member {
+    float: right;
+    font-size: 11px;
+    margin-top: 11px;
+}
+
+.top-title {
+    font-family: 'Recursive', sans-serif;
+    font-size: 15px;
+    color: cornflowerblue;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.image-bg {
+    background-image: url("img/main-head.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.personnel-band {
+    padding: 5px;
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+
+.personnel-img {
+    float: left;
+    transform: rotateY(180deg);
+    padding-right: 20px;
+    margin: 5px;
+}
+
+
+.matt {
+    color: rgb(0, 115, 247);;
+    font-family: 'Recursive', sans-serif;
+    font-size: 15px;
+    padding-bottom: 8px;
+    padding-left: 220px;
+}
+
+.matt p {
+    color: rgb(51, 50, 50);
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.personnel-band1 {
+    padding: 5px;
+    max-width: 800px;
+    margin-top: 35px;
+    margin-left: 400px;
+}
+
+.personnel-img1 {
+    float: right;
+    margin-right: 5px;
+    
+    
+}
+
+.chris {
+    color: rgb(0, 115, 247);;
+    font-size: 15px;
+    font-family: 'Recursive', sans-serif;
+    padding-bottom: 8px;
+    padding-right: 200px;
+}
+.chris p {
+    color: rgb(51, 50, 50);
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 17px;
+    font-size: 10px;
+}
+
+.personnel-band2 {
+    padding: 5px;
+    max-width: 800px;
+    margin-top: 35px;
+}
+/* border: 1px solid gray; */
+
+.personnel-band2 p {
+    color: gainsboro;
+}
+
+.history {
+    border: 1px solid white;
+    color: cornflowerblue;
+    font-size: 9px;
+    font-family: 'Recursive', sans-serif;
+    background-color: rgb(29, 29, 29);
+    min-width: 600px;
+    max-width: 900px;
+    margin: 0 auto;  
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.history h3 {
+    font-size: 15px;
+    margin: 7px;
+}
+
+.history p {
+    margin: 7px 10px 3px 10px;
+    
+}
+
+footer {
+    
+    position: fixed;
+    bottom: 0;    
+    padding: 5px;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    background-color: rgb(29, 28, 28);
+    color: gainsboro;
+    width: 100%
+}
