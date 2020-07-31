@@ -2,6 +2,11 @@ const game = () => {
   let pScore = 0;
   let cScore = 0;
 
+  let bgm = new Audio()
+  bgm.src = 'audio/main-theme.mp3'
+  bgm.loop = true
+  bgm.play()
+
   //Start the Game
   const startGame = () => {
     const playBtn = document.querySelector(".intro button");
