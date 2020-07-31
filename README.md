@@ -6,7 +6,4 @@ This is simple web-game about Dota2 Hero guidance.
 
 
 
-If you want to try to run this web, you can start from `intro.html`
-
-
-Then press button "CLICK ME TO CHOOSE YOUR EARLY HERO!" 
+If you're new on Dota2. You can try to click 'BACK HOME' to getting know what's hero you should choose.
